@@ -30,4 +30,4 @@ yok daha neler! ama sikcoin ile ilgili bir paylaşımınız olursa tabi size faz
 
 ### yasal uyarı - notlar
 litecoin 0.16 fork'udur. detaylı bilgi için coin_params.txt içine bakınız.<br>
-sadece şaka amaçlıdır, herhangi bir maddi değeri bulunmaz. yatırım falan yapayım demeyin aman. bu projede asıl amaç eğlence, bir diğer amaç da herkesin bir coin çıkarabileceğini göstermektir.
+sadece şaka amaçlıdır, herhangi bir maddi değeri bulunmaz. yatırım falan yapayım demeyin aman. bu projede asıl amaç eğlencedir.
