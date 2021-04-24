@@ -1,5 +1,7 @@
 fork of litecoin 0.16
-just for the laughs - vergici abilere not: sadece şaka amaçlıdır herhangi bir değeri bulunmaz
+sadece şaka amaçlıdır herhangi bir maddi değeri bulunmaz
+sik: sanal internet koini
+testnet node'u yok, kendi blockchaininizi (veya node'unuzu?) oluşturabilirsiniz, ama blok kazmakla uğraşmamak için regtest'te deneyebilirsiniz
 
 
 const char* pszTimestamp = "IBO BENIM YARRAMI YESIN";
