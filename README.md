@@ -15,7 +15,7 @@ hemen sikcoin indir ve arkadaşlarına sik yolla!<br>
 daemon ve cli için repodaki klasörlere bakabilirsiniz.<br><br>
 
 ## sik kazan
-sik mi istiyorsunuz? ayıklama penceresi -> konsol kısmına girin, `generate 1` yazın ve sik kazmaya başlayın!! (bu işlem biraz zaman alır)<br>
+sik mi istiyorsunuz? yardım -> ayıklama penceresi -> konsol kısmına girin, `generate 1` yazın ve sik kazmaya başlayın!! (bu işlem biraz zaman alır)<br>
 eğer daha da çok sik isterseniz, "sik istiyorum" diye bir issue açıp sik adresinizi bırakın, en kısa sürede sizi sik'leyeceğim!<br><br>
 
 ## sik satın al
