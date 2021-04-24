@@ -50,4 +50,5 @@ COINBASE_MATURITY = 1;
 premine:
 CAmount nSubsidyBase = 0;
 if (nHeight == 1) nSubsidyBase = 31696969; else if(nHeight >= 69) nSubsidyBase = 0.31;
+// edit: nHeight >= 69 doesn't work for a reason idk
 CAmount nSubsidy = nSubsidyBase * COIN;
