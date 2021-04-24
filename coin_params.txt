@@ -1,0 +1,51 @@
+fork of litecoin 0.16
+just for the laughs - vergici abilere not: sadece şaka amaçlıdır herhangi bir değeri bulunmaz
+
+
+const char* pszTimestamp = "IBO BENIM YARRAMI YESIN";
+genesisOutputScript = CScript() << ParseHex("04fe7aa826ab5a229a7dfda9927c30ba9a1406fbaeb1b10bce23b822dd98df6ed82a554986fd3dd206664360d4b90d9ef8fcfd9d78bdea91e4875e2a4c78dcf810")
+
+==MAINNET (ve genel)==
+consensus.powLimit = uint256S("0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+consensus.defaultAssumeValid = uint256S("0x97e20633d6d0f78351423be935f4790926c66eee4cb0c28b563c17dcbb9e7af0");
+pchMessageStart[0] = 0x31;
+pchMessageStart[1] = 0x69;
+pchMessageStart[2] = 0x31;
+pchMessageStart[3] = 0x69;
+nDefaultPort = 3169;
+genesis = CreateGenesisBlock(1619222801, 2086332, 0x1e0ffff0, 1, 50 * COIN);
+assert(consensus.hashGenesisBlock == uint256S("0x97e20633d6d0f78351423be935f4790926c66eee4cb0c28b563c17dcbb9e7af0"))
+assert(genesis.hashMerkleRoot == uint256S("0x1bb14daefcf12c2b9e806cd715164392deda30627b80909fe9cba8ad52f934fa"));
+vSeeds.emplace_back("sikcoin-node1.cagriari.com");
+base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
+base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
+base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
+base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
+base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
+base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
+
+==TESTNET==
+consensus.defaultAssumeValid = uint256S("0xba5e719e3147fc782d4f1ef77fc4cbd30a3553615bb017d2b252cd26326c165c"); //612653
+pchMessageStart[0] = 0xfd;
+pchMessageStart[1] = 0xd2;
+pchMessageStart[2] = 0xc8;
+pchMessageStart[3] = 0xf1;
+nDefaultPort = 3152;
+genesis = CreateGenesisBlock(1486949366, 3753914, 0x1e0ffff0, 1, 50 * COIN);
+assert(consensus.hashGenesisBlock == uint256S("0xba5e719e3147fc782d4f1ef77fc4cbd30a3553615bb017d2b252cd26326c165c"));
+assert(genesis.hashMerkleRoot == uint256S("0x1bb14daefcf12c2b9e806cd715164392deda30627b80909fe9cba8ad52f934fa"));
+base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
+base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
+base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
+base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
+base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
+base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
+
+
+max supply: 31 696 969
+COINBASE_MATURITY = 1;
+
+premine:
+CAmount nSubsidyBase = 0;
+if (nHeight == 1) nSubsidyBase = 31696969;
+CAmount nSubsidy = nSubsidyBase * COIN;
