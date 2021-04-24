@@ -23,7 +23,8 @@ yok daha neler! ama sikcoin ile ilgili bir paylaşımınız olursa tabi size faz
 
 ## ekran görüntüleri
 ![Sikcoin 1](/sikcoin_1.jpg)<br>
-![Sikcoin 2](/sikcoin_2.jpg)<br>
+![Sikcoin 2](/sikcoin_2.jpg)<br><br>
+sikcoin mainnet node: sikcoin-node1.cagriari.com:3169 veya 206.81.30.167:3169<br>
 
 ## bana ulaş
 [t.me/cagri](https://t.me/cagri)<br><br><br>
