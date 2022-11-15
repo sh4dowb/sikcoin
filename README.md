@@ -1,3 +1,5 @@
+# battık. nodelar kapalı
+
 # sikcoin
 
 bakkaldan kola alırken, SIK'inizle ödediğinizi düşünün! mükemmel olmaz mıydı? bence de olurdu!<br>
